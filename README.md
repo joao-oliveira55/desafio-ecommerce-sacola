@@ -1,4 +1,4 @@
-# Desafio Hiring Coders :)
+# Segundo Desafio Hiring Coders :)
 ## Desafio Ecommerce
 
 Para iniciar o projeto:
@@ -24,7 +24,7 @@ Está aplicação foi desenvolvida utilizando React JS, e ela tem como objetivo 
 
 ### objetivo:
 
-O objetivo desta aplição é cumprir o segundo desafio proposto na segunda edição do Hiring Coders.
+O objetivo desta aplicação é cumprir o segundo desafio proposto na segunda edição do Hiring Coders.
 
 ### Bibliotecas utilizadas:
 
