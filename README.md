@@ -1,5 +1,5 @@
 # Desafio Hiring Coders :)
-## Landing Ecommerce
+## Desafio Ecommerce
 
 Para iniciar o projeto:
 `https://github.com/joao-oliveira55/desafio-ecommerce-sacola`
