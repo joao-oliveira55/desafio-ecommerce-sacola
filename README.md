@@ -1,5 +1,5 @@
 # Segundo Desafio Hiring Coders :)
-## Desafio Ecommerce
+## Desafio Ecommerce - Gestão de Cadastro
 
 Para iniciar o projeto:
 `https://github.com/joao-oliveira55/desafio-ecommerce-sacola`
