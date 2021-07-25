@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Desafio Hiring Coders :)
+## Landing Ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Para iniciar o projeto:
+`https://github.com/joao-oliveira55/desafio-ecommerce-sacola`
 
-## Available Scripts
+Para instalar as dependências:
+`npm i`
 
-In the project directory, you can run:
+Para iniciar em modo de desenvolvimento:
+`npm start`
 
-### `npm start`
+## Aconselho ter instalado o NODEJS versão 14.x em diante.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para instalar o node [clique aqui](https://nodejs.org/en/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para acessar a página em produção [clique aqui](https://desafio-ecommerce.netlify.app/)
 
-### `npm test`
+### Desenvolvedor João Victor.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Explicação da aplicação:
 
-### `npm run build`
+Está aplicação foi desenvolvida utilizando React JS, e ela tem como objetivo simular um carrinho de compra aonde os dados dos produtos, dos clientes e do pedido vão ser armazenados no local storage do navegador.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### objetivo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O objetivo desta aplição é cumprir o segundo desafio proposto na segunda edição do Hiring Coders.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Bibliotecas utilizadas:
 
-### `npm run eject`
+Para desenvolver utilizei as seguintes bibliotecas:
+`styled-components`
+`react-router-dom`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Componentes:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Os componentes desta aplicação foi desenvolvido para servir duas respectivas páginas, sendo assim temos os componentes da pagina `Home` e da página `Cart`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Componentes comuns:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`Header` - componente responsável por renderizar o cabeçalho da página Home.
 
-## Learn More
+`HeaderCart` - componente responsável por renderizar o cabeçalho da página Cart.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`Footer` - componente responsável por renderizar o rodapé da página.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Componentes da Home:
 
-### Code Splitting
+`Banner` - componente responsável por renderizar o Banner da página.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`Products` - componente responsável por renderizar o Minicart e os produtos da página, nele contém as funções necessárias para adicionar os produtos no carrinho e salvar os dados de produtos no Local Storage.
 
-### Analyzing the Bundle Size
+#### Componentes do Carrinho:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`Cart` - componente responsável por renderizar os produtos adicionados no carrinho e o formulário de cadastro da página, nele contém as funções necessárias para finalizar a compra, cadastrar o usuário e salvar os dados do pedido e do usuario no local storage.
 
-### Making a Progressive Web App
+### Observações e melhorias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Acredito que este projeto tenha muitos aspectos que ainda precisam ser melhorados.
 
-### Advanced Configuration
+* Responsividade
+* Melhorar a componentização
+* Não exibir a mensagem de cadastro e compra por `alert`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Estes são alguns pontos que precisam ser melhorados no projeto e que não foram desenvolidos ainda.
